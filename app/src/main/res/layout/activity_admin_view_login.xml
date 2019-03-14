@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/Activitybackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminViewLogin">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:text="Admin"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Activitybackground"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="20dp"
+            android:elevation="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/SearchAdmincardview"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_search"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Search Customer"
+                    android:textColor="@color/colorAccent"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Activitybackground"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="20dp"
+            android:elevation="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/StatusOrder"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_status"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Change Order Status"
+                    android:textColor="@color/colorAccent"
+
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Activitybackground"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="20dp"
+            android:elevation="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Adminprofilecardview"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_profile"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Profile"
+                    android:textColor="@color/colorAccent"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Activitybackground"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="20dp"
+            android:elevation="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/insertcustomerAdmincardview"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_init"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Add Customer"
+                    android:textColor="@color/colorAccent"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Activitybackground"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="20dp"
+            android:elevation="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteCustomerAdmincardview"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+android:src="@drawable/ic_delete"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Delete Customer"
+                    android:textColor="@color/colorAccent"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Activitybackground"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="20dp"
+            android:elevation="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoutAdmincardview"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_logout" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Logout"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

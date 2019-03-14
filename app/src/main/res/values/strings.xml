@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Crystal Springs</string>
+
+    <string-array name="valuesofgallon">
+
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+
+    </string-array>
+
+    <string-array name="spinnerfrom">
+        <item>North Karachi</item>
+        <item>Sadar</item>
+        <item>Defence</item>
+        <item>Malir</item>
+        <item>Johar</item>
+        <item>Garden</item>
+    </string-array>
+
+</resources>

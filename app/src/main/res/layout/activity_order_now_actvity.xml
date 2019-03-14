@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Activitybackground"
+    tools:context=".OrderNowActvity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/adssadasdads"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:text="Order here"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:visibility="visible"
+            />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="Gallons"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:visibility="visible"
+            />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Gallon"
+        android:id="@+id/t3"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="50dp"
+        android:visibility="visible"
+        />
+
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:hint="How many"
+            android:layout_marginTop="8dp"
+            android:id="@+id/onegallon"
+            android:inputType="number"
+            android:visibility="visible"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Gallon"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="50dp"
+            android:visibility="visible"
+            />
+
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:hint="How many"
+            android:layout_marginTop="8dp"
+            android:id="@+id/twogallon"
+            android:inputType="number"
+            android:visibility="visible"
+            />
+    </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Gallon"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="50dp"
+                android:visibility="visible"
+                />
+
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:hint="How many"
+                android:layout_marginTop="8dp"
+                android:id="@+id/threegallon"
+                android:inputType="number"
+                android:visibility="visible"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 Gallon"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="50dp"
+                android:visibility="visible"
+                />
+
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:hint="How many"
+                android:layout_marginTop="8dp"
+                android:id="@+id/fiveugallon"
+                android:inputType="number"
+                android:visibility="visible"
+                />
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="Tankers"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:visibility="visible"
+            />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10k Liters"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="45dp"
+                android:visibility="visible"
+                />
+
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:hint="How many"
+                android:layout_marginTop="8dp"
+                android:id="@+id/tenliters"
+                android:inputType="number"
+                android:visibility="visible"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20k Liters"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="45dp"
+                android:visibility="visible"
+                />
+
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:hint="How many"
+                android:layout_marginTop="8dp"
+                android:id="@+id/twentyliters"
+                android:inputType="number"
+                android:visibility="visible"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50K Liters"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="45dp"
+                android:visibility="visible"
+                />
+
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:hint="How many"
+                android:layout_marginTop="8dp"
+                android:id="@+id/fiftyliters"
+                android:inputType="number"
+                android:visibility="visible"
+                />
+        </LinearLayout>
+
+
+
+
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:paddingBottom="1dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="1dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/white_circular_layout"
+            android:text="Confirm"
+            android:textColor="#fff"
+
+
+            android:id="@+id/Confirm_order"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/invoicelinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:id="@+id/textbill1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="INVOICE"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            />
+        <TextView
+
+            android:layout_below="@+id/textbill1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="Order no: 0000"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+
+            android:visibility="invisible"
+            android:id="@+id/ordernotext"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ordernotext"
+            android:id="@+id/Datebill"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Datebill"
+            android:id="@+id/totalthings"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalthings"
+            android:id="@+id/totalquantity"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:visibility="invisible"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalquantity"
+            android:id="@+id/totalprice"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:visibility="invisible"
+            />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_below="@+id/invoicelinearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@drawable/white_circular_layout"
+                android:text="Payout"
+                android:textColor="#fff"
+
+                android:visibility="invisible"
+                android:id="@+id/payondileveybutton"
+                />
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@drawable/white_circular_layout"
+                android:text="Reset"
+                android:textColor="#fff"
+
+                android:visibility="invisible"
+                android:id="@+id/resetbutton"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+</ScrollView>

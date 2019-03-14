@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Activitybackground"
+    tools:context=".AboutUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="About Us"
+            android:textStyle="bold"
+            android:id="@+id/textaboutUs"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"
+            android:text="Crystal Spring"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="9dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="Crystal Spring is a water supplying Company working at city level in karachi city only. we ensure pure quality with love and care in our day to day dealings"
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"
+            android:text="Our team"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            />
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Hamza Asfaq Shaikh"
+               android:textSize="30dp"
+               android:textAlignment="center"
+               android:textColor="#000"
+               android:layout_marginTop="10dp"
+               />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/fbhamza"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/facebook"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+               android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CEO"
+                android:textSize="30dp"
+                android:textAlignment="center"
+
+                />
+
+       </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sooraj kumar"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/fbsooraj"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/facebook"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manager"
+                android:textSize="25dp"
+                android:textAlignment="center"
+
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dolat Singh"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/fbdolat"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/facebook"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salesman"
+                android:textSize="25dp"
+                android:textAlignment="center"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

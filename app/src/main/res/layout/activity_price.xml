@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Activitybackground"
+    android:layout_height="match_parent"
+    tools:context=".PriceActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Price List"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25dp"/>
+
+
+   <TableLayout
+
+       android:layout_marginTop="50dp"
+       android:layout_width="500dp"
+       android:layout_height="wrap_content"
+       android:stretchColumns="1">
+<TableRow>
+    <TextView
+        android:background="@color/colorPrimary"
+        android:text="Item"
+        android:textSize="50dp"
+        android:textColor="#000"
+
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:text="Price"
+        android:textSize="50dp"
+        android:textColor="#000"
+
+        android:textAlignment="center"
+        >
+
+
+    </TextView>
+</TableRow>
+
+
+       <TableRow>
+           <TextView
+               android:text="1 Gallon"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+           <TextView
+               android:text="PKR 40"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+
+       </TableRow>
+
+
+
+
+
+       <TableRow>
+           <TextView
+               android:text="2 Gallon"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+           <TextView
+               android:text="PKR 80"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+
+       </TableRow>
+
+
+       <TableRow>
+           <TextView
+               android:text="3 Gallon"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+           <TextView
+               android:text="PKR 120"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+
+       </TableRow>
+
+
+       <TableRow>
+           <TextView
+               android:text="5 Gallon"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+           <TextView
+               android:text="PKR 200"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+
+       </TableRow>
+
+
+
+       <TableRow>
+           <TextView
+               android:text="10k Liters"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+           <TextView
+               android:text="PKR 1400"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+
+       </TableRow>
+
+
+       <TableRow>
+           <TextView
+               android:text="20k Liters"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+           <TextView
+               android:text="PKR 2800"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+
+       </TableRow>
+
+
+       <TableRow>
+           <TextView
+               android:text="50k Liters"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+           <TextView
+               android:text="PKR 7000"
+               android:textSize="30dp"
+               android:textColor="#000"
+
+               android:textAlignment="center"
+               />
+
+
+       </TableRow>
+
+
+   </TableLayout>
+
+
+    
+</RelativeLayout>

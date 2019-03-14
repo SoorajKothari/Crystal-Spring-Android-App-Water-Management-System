@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Activitybackground"
+    tools:context=".Products">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/products"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The choice is yours with a wide selection of refreshing bottled water options."
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="22dp"
+            android:padding="5dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="The 3 and 5 Gallon"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#f2f2f2"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="#000"
+                android:textSize="19dp"
+                android:text="3 and 5 Gallon bottled water products allow you to refill portable bottles and glasses to enjoy a cold or hot beverage."
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/hold"
+                />
+
+
+
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="The 1 and 2 gallon"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#dddddd"
+            >
+         <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="#000"
+                android:textSize="19dp"
+                android:text="Our 1 and 2 Gallon bottles are a nice alternative. You get all the convenience of bulk water."
+                />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/bottlee"
+                android:layout_gravity="center"
+
+                />
+
+
+
+        </LinearLayout>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="10k, 20k and 5k liters Tankers"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#dddddd"
+            >
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="#000"
+            android:textSize="19dp"
+            android:text="When matched with a water tanks, 10,000L – 20,000L water tankers are ideal for bunglows while 50,000L tanker is for Plaza's."
+            />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+              android:src="@drawable/tanker"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:paddingBottom="1dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="1dp"
+        android:textAllCaps="true"
+        android:textSize="13sp"
+        android:textStyle="bold"
+            android:textColor="#fff"
+        android:background="@drawable/white_circular_layout"
+        android:text="Order now"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:id="@+id/Ordernowinproducts"
+        />
+        
+    </LinearLayout>
+</ScrollView>

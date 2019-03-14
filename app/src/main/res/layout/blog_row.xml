@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/Activitybackground"
+    android:layout_margin="7dp"
+    app:cardCornerRadius="20dp"
+    android:elevation="90dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/colorAccent"
+            android:text="Orderno : "
+            android:id="@+id/ordernooncardview"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="Total items : "
+            android:id="@+id/itemsoncardview"
+            />
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="Total Quantity : "
+            android:id="@+id/quatityoncardview"
+            />
+
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="Total Price : "
+            android:id="@+id/priceoncardview"
+            />
+
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="Order Date : "
+            android:id="@+id/dateoncardview"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:textColor="@color/colorAccent"
+            android:text="Order Status : "
+            android:id="@+id/statusoncardview"
+            />
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

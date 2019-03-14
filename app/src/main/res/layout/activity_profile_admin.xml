@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Activitybackground"
+    android:layout_height="match_parent"
+    tools:context=".ProfileAdminActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:text="Profile"
+            android:textStyle="bold"
+
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="You cannot change Username,email and Post"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_manname"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Username"
+                android:textSize="25dp"
+                android:layout_marginTop="40dp"
+                android:id="@+id/adminname"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_email"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Email"
+                android:textSize="25dp"
+                android:layout_marginTop="40dp"
+                android:id="@+id/adminemail"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_passwrd"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:layout_marginTop="40dp"
+                android:id="@+id/adminpassworddd"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_phone"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:textStyle="bold"
+
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Number"
+                android:inputType="phone"
+
+                android:layout_marginTop="40dp"
+                android:id="@+id/adminphone"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_post"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Post"
+                android:textSize="25dp"
+                android:layout_marginTop="40dp"
+                android:id="@+id/adminnpost"
+                />
+        </LinearLayout>
+
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/white_circular_layout"
+            android:text="update info"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/updateinfoButtonforAdmin"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Activitybackground"
+    android:layout_height="match_parent"
+    tools:context=".OrderStatusForAdmin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:text="Update Order Status"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Change Status depending on order"
+            android:textSize="13dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <EditText
+            android:text=""
+            android:background="@drawable/input_design"
+            android:id="@+id/StatusCustomerUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:inputType="textPersonName"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Username"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:text=""
+            android:background="@drawable/input_design"
+            android:id="@+id/StatusCustomeroRDERno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:inputType="text"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Orderno"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/currentstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Status : "
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/newstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/input_design"
+            android:hint="New Status"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@drawable/white_circular_layout"
+                android:text="Search"
+                android:textColor="#fff"
+                android:id="@+id/searchbuttoncustomerstatus"
+                />
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@drawable/white_circular_layout"
+                android:text="Change"
+                android:textColor="#fff"
+                android:id="@+id/changstatusbutton"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

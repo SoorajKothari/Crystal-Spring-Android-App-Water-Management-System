@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Activitybackground"
+    tools:context=".SearchCustomerAdmin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/Activitybackground"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:text="Search Customer"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <EditText
+                android:background="@drawable/input_design"
+                android:id="@+id/CustomerUsernameSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:inputType="textPersonName"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:hint="Enter Username"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                />
+
+
+
+            <Button
+
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+               android:layout_marginTop="20dp"
+                android:background="@drawable/white_circular_layout"
+                android:text="Search User"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/SearchUserButton"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_manname"
+                    android:layout_marginTop="20dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Username"
+                    android:textSize="25dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/searchname"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_email"
+                    android:layout_marginTop="20dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Email"
+                    android:textSize="25dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/searchemail"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_phone"
+                    android:layout_marginTop="20dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"
+                    android:textSize="25dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/searchphone"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_track"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textSize="25dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/searchaddress"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_totalord"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Orders"
+                    android:textSize="25dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/searchtoorder"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_lastorder"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Last Order"
+                    android:textSize="25dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/searchtlastorder"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

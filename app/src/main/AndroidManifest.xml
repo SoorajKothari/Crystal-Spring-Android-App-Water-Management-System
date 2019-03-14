@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.danish.crystalsprings">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".RegisterUser" />
+        <activity android:name=".HomeUser" />
+        <activity android:name=".AdminViewLogin" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Products" />
+        <activity android:name=".PriceActivity" />
+        <activity android:name=".OrderNowActvity" />
+        <activity android:name=".ProfileUserActivity" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".TrackOrder" />
+        <activity android:name=".ProfileAdminActivity" />
+        <activity android:name=".DeleteCustomerActivity" />
+        <activity android:name=".SearchCustomerAdmin" />
+        <activity android:name=".OrderStatusForAdmin" />
+        <activity android:name=".MonthlyOrders" />
+        <activity android:name=".deleteOrderCustomer" />
+        <activity android:name=".customerUpdateOrdeer"></activity>
+    </application>
+
+</manifest>
